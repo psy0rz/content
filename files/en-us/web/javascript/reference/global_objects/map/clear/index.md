@@ -46,6 +46,9 @@ console.log(myMap.size);  // 0
 console.log(myMap.has('bar')); // false
 ```
 
+> **Note:** You cannot access the map like its an array, altough its valid javascript: If you do, the values will be stored in the Object itself, instead of altering the Map. (This can be very confusing the first time you encounter it.)
+
+
 ## Specifications
 
 {{Specifications}}
